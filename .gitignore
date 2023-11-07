@@ -1,32 +1,16 @@
-# Prerequisites
-*.d
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main(){
+    int x1,x2,y1,y2;
+cout<<"enter the numbers x1 x2  ";
+cin>>x1>>x2;
+cout<<"enter the numbers y1 y2  ";
+cin>>y1>>y2;
+int o=pow((x2-x1)*(x2-x1),0.5)+pow((y2-y1)*(y2-y1),0.5);
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+cout<<o;
+return 0;
 
-# Precompiled Headers
-*.gch
-*.pch
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+}
